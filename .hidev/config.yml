@@ -1,0 +1,25 @@
+package:
+    name:           hidev-license
+    namespace:      hidev\license
+    headline:       HiDev License
+    title:          License plugin for HiDev
+    type:           yii2-extension
+    keywords:       license, hidev, plugin
+    year:           2015
+    description:    |
+        [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+        This plugin enables LICENSE generation support for HiDev.
+
+        Provides templates for many standart licenses:
+        - ['no license'](http://choosealicense.com/licenses/no-license/) license
+        - open source licenses: MIT, BSD and more from [choosealicense.com](http://choosealicense.com/licenses/)
+        - basic proprietary license
+
+require:
+    hiqdev/hidev-php:           "*@dev"
+    hiqdev/hidev-hiqdev:        "*@dev"
+    hiqdev/hidev-license:       "*@dev"
+    hiqdev/hidev-phpunit:       "*@dev"
+    hiqdev/hidev-travis-ci:     "*@dev"
+    hiqdev/hidev-codeception:   "*@dev"
+    hiqdev/hidev-php-cs-fixer:  "*@dev"
