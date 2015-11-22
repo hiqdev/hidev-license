@@ -9,14 +9,14 @@
  * @copyright Copyright (c) 2014-2015, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\license;
+namespace hidev\license\goals;
 
 use hidev\helpers\Helper;
 
 /**
  * Goal for LICENSE generation.
  */
-class LicenseGoal extends TemplateGoal
+class LicenseGoal extends \hidev\goals\TemplateGoal
 {
     public function getLicense()
     {

@@ -44,8 +44,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "hidev\\license\\": "src",
-            "hidev\\codeception\\": "src"
+            "hidev\\license\\": "src"
         }
     }
 }
