@@ -4,6 +4,7 @@ hiqdev/hidev-license commits history
 ## Under development
 
 - Added Travis CI integration
+    - b2ae004 2015-11-24 added tests and Travis CI (sol@hiqdev.com)
     - c7f8293 2015-11-24 added Travis CI (sol@hiqdev.com)
 
 ## 0.0.1 2015-11-24

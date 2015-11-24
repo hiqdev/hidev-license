@@ -6,6 +6,7 @@ HiDev License
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-license/v/stable)](//packagist.org/packages/hiqdev/hidev-license)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-license/downloads)](//packagist.org/packages/hiqdev/hidev-license)
 [![Build Status](https://img.shields.io/travis/hiqdev/hidev-license.svg)](http://travis-ci.org/hiqdev/hidev-license)
+[![Dependency Status](https://www.versioneye.com/php/hiqdev:hidev-license/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hidev-license/dev-master)
 
 [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
 This plugin enables LICENSE generation support for HiDev.
