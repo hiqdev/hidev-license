@@ -3,6 +3,7 @@ hiqdev/hidev-license commits history
 
 ## Under development
 
+    - 3295301 2015-12-17 fixed build (sol@hiqdev.com)
 
 ## 0.0.2 2015-11-24
 
