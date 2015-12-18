@@ -3,6 +3,7 @@ hiqdev/hidev-license changelog
 
 ## Under development
 
+- Added more tests
 
 ## 0.0.3 2015-12-17
 
