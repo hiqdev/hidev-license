@@ -43,6 +43,7 @@
         }
     ],
     "require-dev": {
+        "hiqdev/hidev": "*",
         "hiqdev/yii2-pluginmanager": "*"
     },
     "autoload": {

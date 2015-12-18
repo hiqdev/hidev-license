@@ -3,6 +3,11 @@ hiqdev/hidev-license commits history
 
 ## Under development
 
+
+## 0.0.3 2015-12-17
+
+- Fixed BSD-3-Clause license template
+    - 638bace 2015-12-17 fixed BSD-3-Clause license template (sol@hiqdev.com)
     - 3295301 2015-12-17 fixed build (sol@hiqdev.com)
 
 ## 0.0.2 2015-11-24

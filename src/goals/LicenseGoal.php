@@ -18,9 +18,25 @@ use hidev\helpers\Helper;
  */
 class LicenseGoal extends \hidev\goals\TemplateGoal
 {
+    /**
+     * The license.
+     *
+     * @var string
+     */
+    protected $_license;
+
+    public function setLicense($value)
+    {
+        $this->_license = $value;
+    }
+
     public function getLicense()
     {
-        return $this->package->license;
+        if ($this->_license === null) {
+            $this->_license = $this->package->license;
+        }
+
+        return $this->_license;
     }
 
     public function getTemplate()
