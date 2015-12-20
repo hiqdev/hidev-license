@@ -4,6 +4,7 @@ hiqdev/hidev-license commits history
 ## Under development
 
 - Added more tests
+    - c90cf63 2015-12-20 + phpdocs (sol@hiqdev.com)
     - 2f5fb02 2015-12-20 + php code coverage to .scrutinizer.yml (sol@hiqdev.com)
     - 22a4f81 2015-12-18 + scrutinizer config (sol@hiqdev.com)
     - f7d64f7 2015-12-18 added more tests (sol@hiqdev.com)
