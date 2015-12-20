@@ -11,8 +11,16 @@
 
 namespace hidev\license;
 
+/**
+ * Plugin class.
+ * @author Andrii Vasyliev <sol@hiqdev.com>
+ */
 class Plugin extends \hiqdev\pluginmanager\Plugin
 {
+    /**
+     * The items.
+     * @var array
+     */
     protected $_items = [
         'goals' => [
             'LICENSE'           => 'hidev\license\goals\LicenseGoal',
