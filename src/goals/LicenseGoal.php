@@ -61,7 +61,7 @@ class LicenseGoal extends \hidev\goals\TemplateGoal
      */
     public function getUrl()
     {
-        return $this->license === 'proprietary'
+        return $this->getLicense() === 'proprietary'
             ? 'https://en.wikipedia.org/wiki/Proprietary_software'
             : 'http://choosealicense.com/licenses/' . Helper::camel2id($this->getLicense());
     }
