@@ -23,6 +23,7 @@ class Plugin extends \hiqdev\pluginmanager\Plugin
      */
     protected $_items = [
         'goals' => [
+            'license'           => 'hidev\license\goals\LicenseGoal',
             'LICENSE'           => 'hidev\license\goals\LicenseGoal',
             'LICENSE.md'        => 'hidev\license\goals\LicenseGoal',
             'LICENSE.txt'       => 'hidev\license\goals\LicenseGoal',
