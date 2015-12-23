@@ -3,6 +3,8 @@ hiqdev/hidev-license commits history
 
 ## Under development
 
+- Fixed: added `license` goal
+    - ea1d8b0 2015-12-22 fixed: +  goal (sol@hiqdev.com)
 - Added more tests
     - eb882e8 2015-12-21 enabling code coverage (sol@hiqdev.com)
     - c90cf63 2015-12-20 + phpdocs (sol@hiqdev.com)

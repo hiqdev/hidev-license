@@ -44,7 +44,6 @@
     ],
     "require-dev": {
         "hiqdev/hidev": "*@dev",
-        "minii/core": "*",
         "hiqdev/yii2-pluginmanager": "*"
     },
     "autoload": {
