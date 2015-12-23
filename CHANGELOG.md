@@ -3,6 +3,9 @@ hiqdev/hidev-license changelog
 
 ## Under development
 
+
+## 0.2.0 2015-12-23
+
 - Fixed: added `license` goal
 - Added more tests
 
