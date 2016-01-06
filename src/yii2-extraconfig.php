@@ -11,15 +11,25 @@
 
 return [
     'components' => [
-        'goals' => [
-            'license'           => 'hidev\license\goals\LicenseGoal',
-            'LICENSE'           => 'hidev\license\goals\LicenseGoal',
-            'LICENSE.md'        => 'hidev\license\goals\LicenseGoal',
-            'LICENSE.txt'       => 'hidev\license\goals\LicenseGoal',
-            'LICENSE.markdown'  => 'hidev\license\goals\LicenseGoal',
-        ],
-        'views' => [
-            '@hidev/license/views',
+        'config' => [
+            'license' => [
+                'class' => 'hidev\license\goals\LicenseGoal',
+            ],
+            'LICENSE' => [
+                'class' => 'hidev\license\goals\LicenseGoal',
+            ],
+            'LICENSE.md' => [
+                'class' => 'hidev\license\goals\LicenseGoal',
+            ],
+            'LICENSE.txt' => [
+                'class' => 'hidev\license\goals\LicenseGoal',
+            ],
+            'LICENSE.markdown' => [
+                'class' => 'hidev\license\goals\LicenseGoal',
+            ],
+            'views' => [
+                '@hidev/license/views',
+            ],
         ],
     ],
 ];
