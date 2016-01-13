@@ -13,19 +13,19 @@ return [
     'components' => [
         'config' => [
             'license' => [
-                'class' => 'hidev\license\goals\LicenseGoal',
+                'class' => 'hidev\license\controllers\LicenseController',
             ],
             'LICENSE' => [
-                'class' => 'hidev\license\goals\LicenseGoal',
+                'class' => 'hidev\license\controllers\LicenseController',
             ],
             'LICENSE.md' => [
-                'class' => 'hidev\license\goals\LicenseGoal',
+                'class' => 'hidev\license\controllers\LicenseController',
             ],
             'LICENSE.txt' => [
-                'class' => 'hidev\license\goals\LicenseGoal',
+                'class' => 'hidev\license\controllers\LicenseController',
             ],
             'LICENSE.markdown' => [
-                'class' => 'hidev\license\goals\LicenseGoal',
+                'class' => 'hidev\license\controllers\LicenseController',
             ],
             'views' => [
                 '@hidev/license/views',
