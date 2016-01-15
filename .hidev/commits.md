@@ -1,7 +1,7 @@
 hiqdev/hidev-license commits history
 ------------------------------------
 
-## Under development
+## 0.3.0 2016-01-15
 
 - Changed goals -> controllers
     - 1ff9e0f 2016-01-15 fixed tests (sol@hiqdev.com)

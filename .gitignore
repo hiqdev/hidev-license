@@ -28,3 +28,4 @@ coverage.clover
 # PHARs
 php-cs-fixer.phar
 phpunit.phar
+composer.phar
