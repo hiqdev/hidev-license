@@ -3,6 +3,8 @@ hiqdev/hidev-license changelog
 
 ## Under development
 
+- Changed goals -> controllers
+- Changed PluginManager -> yii2-extraconfig plugin
 
 ## 0.2.0 2015-12-23
 

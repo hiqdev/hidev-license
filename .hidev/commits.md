@@ -3,6 +3,12 @@ hiqdev/hidev-license commits history
 
 ## Under development
 
+- Changed goals -> controllers
+    - 1ff9e0f 2016-01-15 fixed tests (sol@hiqdev.com)
+    - 9b95d3f 2016-01-13 renamed goals -> controllers, get -> take (sol@hiqdev.com)
+- Changed PluginManager -> yii2-extraconfig plugin
+    - 528bde6 2016-01-06 changed config structure (sol@hiqdev.com)
+    - b90b7c0 2016-01-06 redoing with yii2-extraconfig (sol@hiqdev.com)
 
 ## 0.2.0 2015-12-23
 

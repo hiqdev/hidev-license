@@ -8,6 +8,7 @@ HiDev License
 [![Build Status](https://img.shields.io/travis/hiqdev/hidev-license.svg)](https://travis-ci.org/hiqdev/hidev-license)
 [![Code Coverage](https://scrutinizer-ci.com/g/hiqdev/hidev-license/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/hiqdev/hidev-license/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/hiqdev/hidev-license/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/hiqdev/hidev-license/?branch=master)
+[![Dependency Status](https://www.versioneye.com/php/hiqdev:hidev-license/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hidev-license/dev-master)
 
 [HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
 This plugin enables LICENSE generation support for HiDev.
@@ -40,4 +41,4 @@ to the require section of your composer.json.
 This project is released under the terms of the BSD-3-Clause [license](LICENSE).
 Read more [here](http://choosealicense.com/licenses/bsd-3-clause).
 
-Copyright © 2015, HiQDev (http://hiqdev.com/)
+Copyright © 2015-2016, HiQDev (http://hiqdev.com/)
