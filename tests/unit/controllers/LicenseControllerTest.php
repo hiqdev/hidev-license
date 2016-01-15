@@ -6,20 +6,20 @@
  * @link      https://github.com/hiqdev/hidev-license
  * @package   hidev-license
  * @license   BSD-3-Clause
- * @copyright Copyright (c) 2015, HiQDev (http://hiqdev.com/)
+ * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\license\tests\unit\goals;
+namespace hidev\license\tests\unit\controllers;
 
-use hidev\license\goals\LicenseGoal;
+use hidev\license\controllers\LicenseController;
 
 /**
- * License Goal test class.
+ * License Controller test class.
  */
-class LicenseGoalTest extends \PHPUnit_Framework_TestCase
+class LicenseControllerTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var LicenseGoal
+     * @var LicenseController
      */
     protected $object;
 
@@ -27,7 +27,7 @@ class LicenseGoalTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->object = new LicenseGoal('license', null);
+        $this->object = new LicenseController('license', null);
         $this->object->setLicense($this->license);
     }
 
