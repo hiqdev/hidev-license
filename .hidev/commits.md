@@ -1,6 +1,12 @@
 hiqdev/hidev-license commits history
 ------------------------------------
 
+## Under development
+
+- Fixed build with asset-packagist
+    - e78dead 2016-04-13 fixed build with asset-packagist (sol@hiqdev.com)
+    - e55fb52 2016-04-13 fixed require for `hiqdev/composer-extension-plugin` (sol@hiqdev.com)
+
 ## 0.3.2 2016-04-13
 
 - Changed to `hidev-config` <- `extension-config`

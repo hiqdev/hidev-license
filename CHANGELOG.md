@@ -1,6 +1,10 @@
 hiqdev/hidev-license changelog
 ------------------------------
 
+## Under development
+
+- Fixed build with asset-packagist
+
 ## 0.3.2 2016-04-13
 
 - Changed to `hidev-config` <- `extension-config`
