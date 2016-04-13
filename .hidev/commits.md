@@ -1,6 +1,11 @@
 hiqdev/hidev-license commits history
 ------------------------------------
 
+## 0.3.2 2016-04-13
+
+- Changed to `hidev-config` <- `extension-config`
+    - 6418601 2016-04-13 redone to `hidev-config` <- `extension-config` (sol@hiqdev.com)
+
 ## 0.3.1 2016-03-30
 
 - Changed `extension-config` <- `yii2-extraconfig`
