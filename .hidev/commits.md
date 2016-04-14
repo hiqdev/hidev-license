@@ -1,7 +1,7 @@
 hiqdev/hidev-license commits history
 ------------------------------------
 
-## Under development
+## 0.3.3 2016-04-14
 
 - Fixed build with asset-packagist
     - e78dead 2016-04-13 fixed build with asset-packagist (sol@hiqdev.com)
