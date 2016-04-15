@@ -1,6 +1,10 @@
 hiqdev/hidev-license changelog
 ------------------------------
 
+## 0.3.4 2016-04-15
+
+- Fixed `hiqdev/composer-extension-plugin` version constraint
+
 ## 0.3.3 2016-04-14
 
 - Fixed build with asset-packagist
