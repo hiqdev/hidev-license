@@ -1,6 +1,11 @@
 hiqdev/hidev-license commits history
 ------------------------------------
 
+## 0.4.0 2016-05-21
+
+- Changed: redone to `composer-config-plugin`
+    - a59fbce 2016-05-21 redoing to composer-config-plugin (sol@hiqdev.com)
+
 ## 0.3.4 2016-04-15
 
 - Fixed `hiqdev/composer-extension-plugin` version constraint
