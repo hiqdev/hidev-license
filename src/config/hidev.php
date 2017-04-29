@@ -10,25 +10,32 @@
  */
 
 return [
+    'controllerMap' => [
+        'license' => [
+            'class' => \hidev\license\console\LicenseController::class,
+        ],
+        'LICENSE' => [
+            'class' => \hidev\license\console\LicenseController::class,
+        ],
+        'LICENSE.md' => [
+            'class' => \hidev\license\console\LicenseController::class,
+        ],
+        'LICENSE.txt' => [
+            'class' => \hidev\license\console\LicenseController::class,
+        ],
+        'LICENSE.markdown' => [
+            'class' => \hidev\license\console\LicenseController::class,
+        ],
+    ],
     'components' => [
-        'config' => [
-            'license' => [
-                'class' => 'hidev\license\controllers\LicenseController',
-            ],
-            'LICENSE' => [
-                'class' => 'hidev\license\controllers\LicenseController',
-            ],
-            'LICENSE.md' => [
-                'class' => 'hidev\license\controllers\LicenseController',
-            ],
-            'LICENSE.txt' => [
-                'class' => 'hidev\license\controllers\LicenseController',
-            ],
-            'LICENSE.markdown' => [
-                'class' => 'hidev\license\controllers\LicenseController',
-            ],
-            'views' => [
-                '@hidev/license/views',
+        'license' => [
+            'class' => \hidev\license\components\License::class,
+        ],
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@hidev/views' => ['@hidev/license/views'],
+                ],
             ],
         ],
     ],

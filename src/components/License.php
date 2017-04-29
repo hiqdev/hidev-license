@@ -9,14 +9,14 @@
  * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\license\controllers;
+namespace hidev\license\components;
 
 use hidev\helpers\Helper;
 
 /**
- * Goal for LICENSE generation.
+ * License generation.
  */
-class LicenseController extends \hidev\controllers\TemplateController
+class License extends \hidev\base\Component
 {
     /**
      * The license.
@@ -40,7 +40,7 @@ class LicenseController extends \hidev\controllers\TemplateController
     public function getLicense()
     {
         if ($this->_license === null) {
-            $this->_license = $this->takeGoal('package')->getLicense();
+            $this->_license = $this->take('package')->getLicense();
         }
 
         return $this->_license;
