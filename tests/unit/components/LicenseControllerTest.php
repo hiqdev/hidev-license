@@ -9,17 +9,17 @@
  * @copyright Copyright (c) 2015-2016, HiQDev (http://hiqdev.com/)
  */
 
-namespace hidev\license\tests\unit\controllers;
+namespace hidev\license\tests\unit\components;
 
-use hidev\license\controllers\LicenseController;
+use hidev\license\components\License;
 
 /**
- * License Controller test class.
+ * License component test class.
  */
-class LicenseControllerTest extends \PHPUnit_Framework_TestCase
+class LicenseTest extends \PHPUnit\Framework\TestCase
 {
     /**
-     * @var LicenseController
+     * @var License
      */
     protected $object;
 
@@ -27,7 +27,7 @@ class LicenseControllerTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->object = new LicenseController('license', null);
+        $this->object = new License();
         $this->object->setLicense($this->license);
     }
 
