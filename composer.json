@@ -52,6 +52,7 @@
         "hiqdev/hidev-readme": "dev-master",
         "hiqdev/hidev-travis": "dev-master",
         "hiqdev/hidev-phpunit": "dev-master",
+        "hiqdev/hidev-chkipper": "dev-master",
         "hiqdev/hidev-composer": "dev-master",
         "hiqdev/hidev-scrutinizer": "dev-master",
         "hiqdev/hidev-php-cs-fixer": "dev-master"
