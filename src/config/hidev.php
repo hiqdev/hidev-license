@@ -1,6 +1,6 @@
 <?php
 /**
- * License plugin for HiDev
+ * HiDev plugin for license generation.
  *
  * @link      https://github.com/hiqdev/hidev-license
  * @package   hidev-license

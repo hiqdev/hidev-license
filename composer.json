@@ -1,7 +1,7 @@
 {
     "name": "hiqdev/hidev-license",
     "type": "yii2-extension",
-    "description": "License plugin for HiDev",
+    "description": "HiDev plugin for license generation",
     "keywords": [
         "license",
         "hidev",

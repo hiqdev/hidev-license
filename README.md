@@ -1,6 +1,6 @@
 # HiDev License
 
-**License plugin for HiDev**
+**HiDev plugin for license generation**
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/hidev-license/v/stable)](https://packagist.org/packages/hiqdev/hidev-license)
 [![Total Downloads](https://poser.pugx.org/hiqdev/hidev-license/downloads)](https://packagist.org/packages/hiqdev/hidev-license)
@@ -9,14 +9,18 @@
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hidev-license.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-license/)
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:hidev-license/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hidev-license/dev-master)
 
-[HiDev](https://github.com/hiqdev/hidev) is a task runner, code generator and build tool for easier continuos integration.
+[HiDev] is the automation tool mixed with code generator for easier continuous development.
+
 This plugin enables LICENSE generation support for HiDev.
 
 Provides templates for many standart licenses:
 
-- open source licenses: MIT, BSD and more from [choosealicense.com](http://choosealicense.com/licenses/)
+- open source licenses: MIT, BSD and more from [choosealicense.com]
 - ['no license'](http://choosealicense.com/licenses/no-license/) license
 - basic proprietary license
+
+[hidev]: https://github.com/hiqdev/hidev
+[choosealicense.com]: http://choosealicense.com/licenses/
 
 ## Installation
 
