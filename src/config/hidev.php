@@ -10,19 +10,7 @@
 
 return [
     'controllerMap' => [
-        'license' => [
-            'class' => \hidev\license\console\LicenseController::class,
-        ],
         'LICENSE' => [
-            'class' => \hidev\license\console\LicenseController::class,
-        ],
-        'LICENSE.md' => [
-            'class' => \hidev\license\console\LicenseController::class,
-        ],
-        'LICENSE.txt' => [
-            'class' => \hidev\license\console\LicenseController::class,
-        ],
-        'LICENSE.markdown' => [
             'class' => \hidev\license\console\LicenseController::class,
         ],
     ],
