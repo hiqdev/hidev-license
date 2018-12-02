@@ -7,7 +7,6 @@
 [![Build Status](https://img.shields.io/travis/hiqdev/hidev-license.svg)](https://travis-ci.org/hiqdev/hidev-license)
 [![Scrutinizer Code Coverage](https://img.shields.io/scrutinizer/coverage/g/hiqdev/hidev-license.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-license/)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/hiqdev/hidev-license.svg)](https://scrutinizer-ci.com/g/hiqdev/hidev-license/)
-[![Dependency Status](https://www.versioneye.com/php/hiqdev:hidev-license/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:hidev-license/dev-master)
 
 [HiDev] is the automation tool mixed with code generator for easier continuous development.
 
@@ -45,4 +44,4 @@ to the require section of your composer.json.
 This project is released under the terms of the BSD-3-Clause [license](LICENSE).
 Read more [here](http://choosealicense.com/licenses/bsd-3-clause).
 
-Copyright © 2015-2017, HiQDev (http://hiqdev.com/)
+Copyright © 2015-2018, HiQDev (http://hiqdev.com/)
