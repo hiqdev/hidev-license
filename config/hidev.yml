@@ -1,0 +1,12 @@
+app:
+    controllerMap:
+        LICENSE:
+            __class: hidev\license\console\LicenseController
+
+license:
+    __class: hidev\license\components\License
+
+theme:
+    pathMap:
+        '@hidev/views':
+            - '@hidev/license/views'
