@@ -46,16 +46,19 @@
         "hiqdev/composer-config-plugin": "*@dev"
     },
     "require-dev": {
-        "hiqdev/hidev": "dev-master",
-        "hiqdev/hidev-php": "dev-master",
-        "hiqdev/hidev-hiqdev": "dev-master",
-        "hiqdev/hidev-readme": "dev-master",
-        "hiqdev/hidev-travis": "dev-master",
-        "hiqdev/hidev-phpunit": "dev-master",
-        "hiqdev/hidev-chkipper": "dev-master",
-        "hiqdev/hidev-composer": "dev-master",
-        "hiqdev/hidev-scrutinizer": "dev-master",
-        "hiqdev/hidev-php-cs-fixer": "dev-master"
+        "yiisoft/di": "^3.0@dev",
+        "yiisoft/log": "^3.0@dev",
+        "yiisoft/cache": "^3.0@dev",
+        "hiqdev/hidev": "^1.0@dev",
+        "hiqdev/hidev-php": "^1.0@dev",
+        "hiqdev/hidev-hiqdev": "^1.0@dev",
+        "hiqdev/hidev-readme": "^1.0@dev",
+        "hiqdev/hidev-travis": "^1.0@dev",
+        "hiqdev/hidev-phpunit": "^1.0@dev",
+        "hiqdev/hidev-chkipper": "^1.0@dev",
+        "hiqdev/hidev-composer": "^1.0@dev",
+        "hiqdev/hidev-scrutinizer": "^1.0@dev",
+        "hiqdev/hidev-php-cs-fixer": "^1.0@dev"
     },
     "autoload": {
         "psr-4": {
@@ -71,6 +74,7 @@
             "hidev": "config/hidev.yml"
         }
     },
+    "minimum-stability": "dev",
     "repositories": [
         {
             "type": "composer",
