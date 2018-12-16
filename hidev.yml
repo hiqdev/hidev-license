@@ -1,6 +1,7 @@
 package:
     type:           yii2-extension
     name:           hidev-license
+    year:           2015
     title:          HiDev plugin for license generation
     headline:       HiDev License
     keywords:       license, hidev, plugin

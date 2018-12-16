@@ -42,13 +42,12 @@
             "homepage": "http://hiqdev.com/"
         }
     ],
-    "require": {
-        "hiqdev/composer-config-plugin": "*@dev"
-    },
     "require-dev": {
         "yiisoft/di": "^3.0@dev",
         "yiisoft/log": "^3.0@dev",
         "yiisoft/cache": "^3.0@dev",
+        "vlucas/phpdotenv": "^2.5",
+        "hiqdev/composer-config-plugin": "dev-master",
         "hiqdev/hidev": "^1.0@dev",
         "hiqdev/hidev-php": "^1.0@dev",
         "hiqdev/hidev-hiqdev": "^1.0@dev",
@@ -72,6 +71,9 @@
         },
         "config-plugin": {
             "hidev": "config/hidev.yml"
+        },
+        "config-plugin-dev": {
+            "hidev": "hidev.yml"
         }
     },
     "minimum-stability": "dev",
