@@ -26,7 +26,4 @@ return [
             ],
         ],
     ],
-    'aliases' => [
-        '@hidev/license' => dirname(__DIR__) . '/src',
-    ],
 ];
