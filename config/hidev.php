@@ -21,7 +21,7 @@ return [
         'view' => [
             'theme' => [
                 'pathMap' => [
-                    '@hidev/views' => ['@hidev/license/views'],
+                    '@hidev/views' => [dirname(__DIR__) . '/src/views'],
                 ],
             ],
         ],
